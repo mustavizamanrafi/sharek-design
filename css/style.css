@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom, #5B5858, #494747, #3F3D3D, #1E1D1D);
+    background-repeat: no-repeat;
+
+}
+
+.page {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin-left: 20px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.page::after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 3px !important;
+    background-color: #C4BE20;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.page::before {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px !important;
+    background-color: #C4BE20;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.page:hover {
+    color: #C4BE20 !important;
+}
+
+.page:hover::after {
+    width: 60px;
+}
+
+.page:hover::before {
+    width: 60px;
+}
+
+header span {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: 200;
+    transition: 0.3s;
+    ;
+}
+
+
+header span:hover {
+    color: #C4BE20;
+}
+
+.content_item {
+    color: #fff;
+}
+
+.content_item h1 {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 130px;
+}
+
+.content_item p {
+    font-size: 29px;
+}
+
+.btn_custom {
+    background-color: #E7DF31;
+    margin-left: 20px;
+    padding: 8px 25px;
+    border: 1px solid #E7DF31;
+    color: #504D4D;
+    transition: .4s;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn_custom:hover {
+    background-color: transparent;
+    transform: scale(1.05);
+    color: rgb(0, 0, 0);
+}
+
+
+/* <!-- feature item start --> */
+.content h1 {
+    color: #fff;
+}
+
+.costoms_feature {
+    box-shadow: 3px 3px 11px 2px #333;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 40px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.costoms_feature:hover {
+    box-shadow: 3px 3px 11px 8px #333;
+}
+
+.heading {}
+
+.costoms_feature h1 {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.costoms_feature p {
+    color: #fff;
+    line-height: 30px;
+}
+
+.client a {
+    text-decoration: none;
+    color: #C4BE20;
+
+}
+
+.client {
+    position: relative;
+}
+
+
+.client::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    margin: 0 auto;
+    left: 75%;
+    right: 0;
+    top: 30px;
+    background-color: #C4BE20;
+    transition: .3s all ease;
+
+}
+
+.client:hover:before {
+    width: 60px;
+
+}
+
+
+.client::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 3px;
+    margin: 0 auto;
+    left: 75%;
+    right: 0;
+    bottom: 30px;
+    background-color: #C4BE20;
+    transition: .3s all ease;
+
+}
+
+.client:hover::after {
+    width: 60px;
+
+}
+
+/* <!-- feature item end--> */
+
+/* <!-- skill item start --> */
+
+.skill{
+    
+}
+.content h1{
+color: #fff;
+}
+
+.skill_content{
+    padding: 0 30px;
+}
+
+.skill_content h2{
+color: #fff ;
+margin-top: 15px;
+}
+
+
+.progress{
+   border-radius: 100px;
+}
+
+.skill_content h4{
+color: #fff;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.progress-bar{
+    background-color: #989311;
+}
+
+/* <!-- skill item end --> */
+
+/* <!-- commicciion part start --> */
+
+.commisiion_heading{
+    
+}
+.commisiion_heading h1{
+color: #fff;
+}
+
+.commission_item{
+    
+}
+.commission_item h2{
+color: #fff;
+line-height: 75px;
+font-size: 35px;
+font-weight: 800;
+}
+.commission_item p{
+    color: rgb(163, 163, 163);
+font-size: 25px;
+font-weight: 500;
+}
+
+.commission_item span{
+    color: #C4BE20;
+}
+
+/* Social and contact start  */
+.social{
+    padding: 80px 0;
+}
+
+.single-social{
+    margin: 15px 0;
+    background-color: #3B3939;
+    border-radius: 40px;
+    padding: 12px 0px 10px 35px;
+    box-shadow: 5px 5px 20px -1px #101010;
+    transition: 0.3s;
+}
+
+.single-social:hover{
+    transform: scale(1.05);
+}
+
+.single-social a{
+    text-decoration: none;
+}
+
+.single-social p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.discord-img{
+    height: 35px;
+}
+
+.stack-img{
+    height: 35px;
+}
+
+.email-img{
+    height: 35px;
+}   
+
+.github-img{
+    height: 35px;
+}   
+.sec-title{
+    font-weight: 500;
+    font-size: 44px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* Social and contact end  */
+
+
+/* Contact start  */
+.contact{
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.form-wrapper{
+    background-color: #3B3939;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    width: 80%;
+}
+
+input:focus{
+    border: 0;
+    outline: 0;
+}
+
+.form-control:focus{
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+textarea{
+    color: #fff !important;
+    resize: none;
+} 
+
+.submit-btn{
+    background-color: #201F1F !important;
+    width: 120px;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+
+/* Contact end  */
